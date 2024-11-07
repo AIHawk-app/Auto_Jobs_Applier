@@ -14,7 +14,7 @@ selenium_logger.setLevel(LOG_SELENIUM_LEVEL)
 def get_log_filename():
     timestamp = time.strftime("%Y%m%d_%H%M%S")
     return f"log/app_{timestamp}.log"
-
+  
 log_file = get_log_filename()
 
 # Ensure the log directory exists
